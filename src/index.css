@@ -1,0 +1,30 @@
+body {
+  max-width: 800px;
+}
+.bodyCount {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 2.5rem;
+  color: rgb(121, 121, 174);
+}
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgb(143, 143, 195);
+  border: 0;
+  font-size: 20px;
+  color: wheat;
+  justify-self: end;
+}
+p {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(84, 133, 84);
+}
