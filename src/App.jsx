@@ -7,7 +7,7 @@ function App() {
   }
   return (
     <div className="bodyCount">
-      <h1>You can increase you number here</h1>
+      <h1>You can increase your number here</h1>
       <p>{count}</p>
       <button onClick={handleCount}>Click</button>
     </div>
