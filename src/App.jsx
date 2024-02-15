@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Button from './Button'
+import './index.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,16 +9,12 @@ function App() {
   }
 
   return (
-    <>
-      {' '}
-      <div className="bodyCount">
-        <h1>You can increase your number here</h1>
-        <p>{count}</p>
+    <div className="bodyCount">
+      <h1>You can increase your number here</h1>
+      <p>{count}</p>
 
-        <button onClick={handleCount}>Click</button>
-      </div>
-      <Button />
-    </>
+      <button onClick={handleCount}>Click</button>
+    </div>
   )
 }
 
