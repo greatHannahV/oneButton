@@ -1,8 +1,9 @@
 import { useState } from 'react'
+import Button from './Button'
 
 function App() {
   const [count, setCount] = useState(0)
-  console.log(count)
+
   function handleCount() {
     setCount((count) => count + 1)
   }
@@ -13,6 +14,7 @@ function App() {
       <p>{count}</p>
 
       <button onClick={handleCount}>Click</button>
+      <Button />
     </div>
   )
 }
