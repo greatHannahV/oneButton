@@ -9,13 +9,16 @@ function App() {
   }
 
   return (
-    <div className="bodyCount">
-      <h1>You can increase your number here</h1>
-      <p>{count}</p>
+    <>
+      {' '}
+      <div className="bodyCount">
+        <h1>You can increase your number here</h1>
+        <p>{count}</p>
 
-      <button onClick={handleCount}>Click</button>
+        <button onClick={handleCount}>Click</button>
+      </div>
       <Button />
-    </div>
+    </>
   )
 }
 
